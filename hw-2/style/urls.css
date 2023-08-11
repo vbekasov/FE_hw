@@ -1,0 +1,12 @@
+
+.EUR1 {
+    content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbbkCrajEcSgd7tqEfZL8ELWQdYPTHsImwbu9zvFhxeA&s);
+}
+
+#USD1 {
+    content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvDyoCa0-pOsU_A3ZRR4JZivg1qlwCoDC93ADAHpdNKQ&s);
+}
+
+#GBP1 {
+    content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/800px-Flag_of_the_United_Kingdom_%281-2%29.svg.png?20190916111110);
+}
