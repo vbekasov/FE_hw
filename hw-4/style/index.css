@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box_div {
+    width: 600px;
+    height: 600px;
+    border-style: dotted;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box {
+    position: relative;
+    width: 200px;
+    aspect-ratio: 1;
+}
+
+#box1 {
+    background: red;
+}
+
+#box2 {
+    left: 100px;
+    top: -100px;
+
+    background: blue;
+}
+
+#box3 {
+    left: 50px;
+    top:  -350px;
+
+    background: green;
+}
+
+#box3:hover {
+    width: 300px;
+    transition-duration: 0.75s;
+    rotate: -45deg;
+}

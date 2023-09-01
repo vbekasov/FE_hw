@@ -10,3 +10,11 @@
 #GBP1 {
     content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/800px-Flag_of_the_United_Kingdom_%281-2%29.svg.png?20190916111110);
 }
+
+#JPY1 {
+    content: url(https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1200px-Flag_of_Japan.svg.png);
+}
+
+#GEL1 {
+    content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Flag_of_Kingdom_of_Georgia.svg/2560px-Flag_of_Kingdom_of_Georgia.svg.png);
+}
