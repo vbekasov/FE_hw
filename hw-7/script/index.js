@@ -54,11 +54,34 @@ function odd_even_sum(n, m) {
     console.log(`${even}  ${odd}`);
 }
 
+function longest_in_arr(arr) {
+    if (arr.length === 0) {
+        return null;
+    }
+    let longest = -1;
+    let lindex  = -1;
+
+    for (i in arr) {
+        if (arr[i].length > longest) {
+            longest = arr[i].length;
+            lindex = i;
+        }
+    }
+
+    return arr[lindex];
+}
+
+
 alert(`Min of two : ${min_of_two(prompt(`Enter two separated with ;`).split(';'))}`);
 even_down(prompt(`Enter start stop separated with ;`).split(`;`));
 console.log(one_to_sum(10));
 console.log(one_to_sum(5));
-odd_even_sum(4, 5);
+odd_even_sum(4, 11);
 
+//------------------------------------
 
+myArr1 = [];
+myArr2 = ['a', 'abc', 'ab', 'ABC', 'a'];
 
+console.log(`Longest in arr : ${longest_in_arr(myArr1)}`);
+console.log(`Longest in arr : ${longest_in_arr(myArr2)}`);
